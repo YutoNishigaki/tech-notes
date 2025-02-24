@@ -9,6 +9,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
   url: "https://YutoNishigaki.github.io",
   baseUrl: "/my-tech-notes/",
+  organizationName: "YutoNishigaki",
   projectName: "my-tech-notes",
   trailingSlash: false,
   deploymentBranch: "gh-pages",
