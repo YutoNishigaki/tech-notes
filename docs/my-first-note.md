@@ -1,6 +1,8 @@
 ---
 id: my-first-note
 title: はじめての技術メモ
+sidebar_label: はじめての技術メモ
+sidebar_position: 9
 ---
 
 # はじめての技術メモ
