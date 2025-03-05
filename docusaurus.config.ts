@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "技術メモ",
+  title: "notes",
   favicon: "img/favicon.ico",
   url: "https://YutoNishigaki.github.io",
   baseUrl: "/my-tech-notes/",
@@ -47,6 +47,10 @@ const config: Config = {
     footer: {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} nissy.`,
+    },
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
     },
     prism: {
       theme: prismThemes.github,
