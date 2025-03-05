@@ -8,7 +8,7 @@ const config: Config = {
   title: "技術メモ",
   favicon: "img/favicon.ico",
   url: "https://YutoNishigaki.github.io",
-  baseUrl: "/",
+  baseUrl: "/my-tech-notes/",
   organizationName: "YutoNishigaki",
   projectName: "my-tech-notes",
   trailingSlash: false,
