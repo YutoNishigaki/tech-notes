@@ -1,8 +1,9 @@
 ---
-id: sample1
-title: Sample1
-sidebar_label: Sample1
-sidebar_position: 1
+id: sample
+title: Sample
+sidebar_position: 9999
+tags: [docusaurus]
+draft: true
 ---
 
 # Sample1
@@ -72,11 +73,11 @@ console.log("Your message here.");
 
 ## 画像
 
-![Sample image](./img/sample-image.png)
+![Sample image](./sample-image.png)
 
 ## リンク
 
-[home](../home.md)
+[home](./home.md)
 
 ## mermaid 記法
 

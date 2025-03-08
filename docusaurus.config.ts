@@ -28,6 +28,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -41,6 +42,7 @@ const config: Config = {
       logo: {
         alt: "Site Logo",
         src: "img/logo.png",
+        srcDark: "img/logo-dark.png",
       },
     },
     footer: {
@@ -70,7 +72,9 @@ const config: Config = {
         indexBlog: false,
         indexPages: false,
         hashed: true,
-        language: ["en", "ja"],
+        language: ["ja"],
+        forceIgnoreNoIndex: true,
+        docsRouteBasePath: "/",
       },
     ],
   ],

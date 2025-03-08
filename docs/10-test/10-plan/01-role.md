@@ -1,6 +1,9 @@
 ---
-id: plan
+slug: /test/
+id: role
+title: 役割
 sidebar_position: 1
+tags: [test]
 ---
 
 # テスト計画
