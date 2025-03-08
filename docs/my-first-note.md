@@ -1,5 +1,5 @@
 ---
-id: my-first-note
+id: first-note
 title: はじめての技術メモ
 sidebar_label: はじめての技術メモ
 sidebar_position: 9

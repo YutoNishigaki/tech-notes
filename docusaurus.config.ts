@@ -5,12 +5,12 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "notes",
+  title: "TechNotes",
   favicon: "img/favicon.ico",
   url: "https://YutoNishigaki.github.io",
-  baseUrl: "/my-tech-notes/",
+  baseUrl: "/tech-notes/",
   organizationName: "YutoNishigaki",
-  projectName: "my-tech-notes",
+  projectName: "tech-notes",
   trailingSlash: false,
   deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
@@ -38,10 +38,9 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: "技術メモ",
       logo: {
         alt: "Site Logo",
-        src: "img/logo.svg",
+        src: "img/logo.png",
       },
     },
     footer: {
@@ -57,6 +56,24 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: [
+    "@docusaurus/theme-mermaid",
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        hashed: true,
+        language: ["en", "ja"],
+      },
+    ],
+  ],
 };
 
 export default config;
