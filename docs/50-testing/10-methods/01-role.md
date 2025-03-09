@@ -1,7 +1,7 @@
 ---
-slug: /test/
+slug: /testing/
 id: role
-title: 役割
+title: テストの役割
 sidebar_position: 1
 tags: [test]
 ---
