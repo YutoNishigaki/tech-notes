@@ -1,5 +1,5 @@
 ---
-id: devops-index
+id: devops-vercel-nextjs
 title: VercelへNextJSをデプロイする際の設定
 sidebar_position: 2
 tags: []
