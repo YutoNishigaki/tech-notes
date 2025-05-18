@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_notes=self.webpackChunktech_notes||[]).push([[4898],{864:t=>{t.exports=JSON.parse('{"tags":[{"label":"nextjs","permalink":"/tech-notes/tags/nextjs","count":1},{"label":"test","permalink":"/tech-notes/tags/test","count":1},{"label":"vitest","permalink":"/tech-notes/tags/vitest","count":1}]}')}}]);
